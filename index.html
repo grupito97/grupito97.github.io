@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-
+  <!-- Plantilla desde https://startbootstrap.com/themes/stylish-portfolio/-->
+  <!-- Con cariño para el grupito 97 ❤️-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -17,9 +18,11 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.min.css
+  
+  " rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
 
 </head>
 
@@ -35,19 +38,25 @@
         <a class="js-scroll-trigger" href="#page-top">Grupo 97</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
+        <a class="js-scroll-trigger" href="#page-top">Inicio</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#calendario">Calendario</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
+        <a class="js-scroll-trigger" href="#textos">Textos de Estudio</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        <a class="js-scroll-trigger" href="#drives">Drives</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
+        <a class="js-scroll-trigger" href="#sitios">Páginas UC</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#sociales">Redes sociales</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#mapa">Mapa</a>
       </li>
     </ul>
   </nav>
@@ -59,10 +68,14 @@
       <h3 class="mb-5">
         <em>Pero qué buen grupo 11/10 son bacanes</em>
       </h3>
+      <div class="btn btn-vertical">
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#calendario">Calendario</a>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#textos">Textos Estudio</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#drives">Drives</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#sitios">Páginas UC</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#sociales">Redes sociales</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#mapa">Mapa</a>
+    </div>
     </div>
     <div class="overlay"></div>
   </header>
@@ -85,32 +98,41 @@
   </section>
 
   <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="textos">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Recursos electrónicos</h3>
         <h2 class="mb-5">Textos de Estudio</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+          <a href="https://puc.alma.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=5331787910003396&institutionId=3396&customerId=3395">
+
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
+            <i class="fa fa-square-root-alt"></i>
           </span>
+        </a>
           <h4>
-            <strong>Responsive</strong>
+            <strong>Cálculo I</strong>
           </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
+          <p class="text-faded mb-0">Cálculo Trascendentes tempranas</p>
+          <p class="text-faded mb-0">James Stewart (sexta edición)</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+  
+        <div class="col-lg-6s col-md-6 mb-5 mb-lg-0">
+          <a href="https://bmdigitales.bibliotecas.uc.cl/enviando.php?url=QUxHRUJSQSBMSU5FQUwgWSBTVVMgQVBMSUNBQ0lPTkVTIExBWQ==">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
+            <i class="fa fa-superscript"></i>
           </span>
+        </a>
           <h4>
-            <strong>Redesigned</strong>
+            <strong>Álgebra Lineal</strong>
           </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+          <p class="text-faded mb-0">Álgebra lineal y sus aplicaciones</p>
+          <p class="text-faded mb-0">David C. Lay (cuarta edición)
+          </p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+        <!--<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-like"></i>
           </span>
@@ -129,68 +151,83 @@
             <strong>Question</strong>
           </h4>
           <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
 
   <!-- Callout -->
-  <section class="callout">
+  <section class="callout" id="drives">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      <h2 class="mx-auto mb-5">Drives</h2>
+
+      <!--<div data-tockify-component="mini" data-tockify-calendar="grupito97calendariofeliz"></div>
+          <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+      -->   
+      <!--<a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      -->
+      <div class="btn btn-group">
+      <a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1qj8KkI1nFDjUuNvBmIqDzpVozmFbZZB_?usp=sharing">G97: Drive pasadas matemática</a>
+      <a class="btn btn-secondary" href="https://drive.google.com/open?id=1l4cNWDdb8adQ-ERcZ9ujpaVCd63HJKRm">Apuntes y Pruebas - CT Maida Merino</a>
+      <a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1ejPxz9ux25IcLIqyLnJ6NNIFgGP7lo6C?usp=sharing">A² - Material </a>
+      <!--a class="btn btn-secondary" href=""></a-->
+      </div>
+
     </div>
   </section>
 
   <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+  <section class="content-section" id="sitios">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+        <h3 class="text-secondary mb-0">Páginas UC</h3>
+        <h2 class="mb-5">Sitios</h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" href="https://portal.uc.cl">
             <span class="caption">
               <span class="caption-content">
-                <h2>Stationary</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <h2>Portal UC</h2>
+                <p class="mb-0">Aquí es posible ver nuestro perfil, así
+                  como también consultar lo académico o financiero.
+                </p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" href="https://cursos.canvas.uc.cl">
             <span class="caption">
               <span class="caption-content">
-                <h2>Ice Cream</h2>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <h2>Canvas UC</h2>
+                <p class="mb-0">Plataforma de varios de los cursos UC</p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" href="https://www.labmat.puc.cl/">
             <span class="caption">
               <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <h2>Labmat</h2>
+                <p class="mb-0">Plataforma de los cursos de la Facultad de Matemáticas UC</p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" href="https://ing.uc.cl/#SIDING">
             <span class="caption">
               <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <h2>SIDING</h2>
+                <p class="mb-0">Plataforma de Ingeniería. Permite ver información 
+                  curricular, realizar procesos relacionados con la DiPre,
+                  ver algunos de los cursos de la Escuela.
+                </p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
@@ -201,17 +238,61 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+  <section class="content-section bg-primary text-white" id="sociales">
     <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
+      <h2 class="mb-4">Redes Sociales</h2>
+      <!--a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a-->
+      <a class="btn btn-primary" href="https://www.instagram.com/caipuc/">
+        <p>
+          CAi
+        </p>
+        <img class="avatar" src="https://instagram.fiqq1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/16906234_190272334791900_4638929820619636736_a.jpg?_nc_ht=instagram.fiqq1-1.fna.fbcdn.net&_nc_ohc=ZGdX5xWQT4UAX84Asty&oh=30ec9e43814d1d8c4dc140821945e4b6&oe=5EBF0A52">
+      </a>
+      <a class="btn btn-primary" href="https://www.instagram.com/consejeria_inguc/">
+        <p>
+          Consejería Académica
+        </p>
+        <img class="avatar" src="https://instagram.fiqq1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/92844862_867510183712046_2001844549692948480_n.jpg?_nc_ht=instagram.fiqq1-1.fna.fbcdn.net&_nc_ohc=tOdNLObujqMAX8jPBnf&oh=2143a972a90f3d6113f7d4f51e71e4c8&oe=5EBEB045">
+      </a>
+      <a class="btn btn-primary" href="https://www.instagram.com/odoc_ing_uc/">
+        <p>
+          Orientadores Docentes
+        </p>
+        <img class="avatar" src="https://instagram.fiqq1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/22427445_936003389871137_4221121213155508224_n.jpg?_nc_ht=instagram.fiqq1-1.fna.fbcdn.net&_nc_ohc=6pmogVkm2xIAX_lUf99&oh=cd70e23ddc8d3e1f526906417adf494c&oe=5EC0E9D3">
+      </a>
+      <a class="btn btn-primary" href="https://www.instagram.com/tutores.inguc/">
+        <p>
+          Cuerpo de Tutores
+        </p>
+        <img class="avatar" src="https://instagram.fscl11-2.fna.fbcdn.net/v/t51.2885-19/s150x150/41940323_2287199967961330_5833803470557151232_n.jpg?_nc_ht=instagram.fscl11-2.fna.fbcdn.net&_nc_ohc=X5VfurX2P60AX_tHLAJ&oh=e70872575a139ef02a2a9a576b7c4fae&oe=5EBFD5FA">
+      </a>
+      <br/>
+      <a class="btn btn-primary" href="https://www.instagram.com/a2_ing_uc/">
+        <p>
+          A²
+        </p>
+        <img class="avatar" src="https://instagram.fiqq1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/92353070_221285612555335_3077910328957206528_n.jpg?_nc_ht=instagram.fiqq1-1.fna.fbcdn.net&_nc_ohc=9J6TnCQ76YEAX8-MnK2&oh=4efef4b053e9fbcde4302a18257e3244&oe=5EBEE4F3">
+      </a>
+      <a class="btn btn-primary" href="https://www.instagram.com/proyectogoing/">
+        <p>
+          GoIng
+        </p>
+        <img class="avatar" src="https://instagram.fscl11-2.fna.fbcdn.net/v/t51.2885-19/s150x150/28429244_161846187850750_7179050866194776064_n.jpg?_nc_ht=instagram.fscl11-2.fna.fbcdn.net&_nc_ohc=fQxiiAaE2tIAX-MLj1I&oh=603f2acf25c081e4fe8ecbd44469177a&oe=5EBF1474">
+      </a>
+      <a class="btn btn-primary" href="https://www.instagram.com/saladeayudantesing/">
+        <p>
+          SAi
+        </p>
+        <img class="avatar" src="https://instagram.fscl11-2.fna.fbcdn.net/v/t51.2885-19/s150x150/47694062_341972853023921_222054426293043200_n.jpg?_nc_ht=instagram.fscl11-2.fna.fbcdn.net&_nc_ohc=BBK5VPQkC3kAX-Pu7yL&oh=5fdce1824d66b8502afd3ca0f1d3e3c5&oe=5EBE5F52">
+      </a>
+
+      </div>
   </section>
 
   <!-- Map -->
-  <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+  <section id="mapa" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.talentopsicologiauc.cl/intranet3/images/MAPA.pdf"></iframe>
     <br />
     <small>
       <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
